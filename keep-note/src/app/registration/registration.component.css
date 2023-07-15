@@ -1,0 +1,44 @@
+.Rgstrn {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgb(239, 236, 248);
+    padding-bottom: 30px;
+}
+
+.input {
+    margin-right: 40px;
+}
+
+.block {
+    width: 61%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gender {
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-right: 390px;
+}
+
+button {
+    margin-right: 20px;
+}
+
+#pwd {
+    margin-left: 280px;
+    font-size: 10px;
+}
+
+#err , #pwd{
+    margin-top: -20px;
+}

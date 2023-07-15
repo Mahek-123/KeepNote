@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-areas: "r1 r1 r1 r1";
+    justify-content: space-around;
+    gap: 30px;
+    margin: 10px 70px;
+}
+
+#icon {
+    position: relative;
+    margin-left: 1195px;
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(76, 53, 191);
+}
+
+#icon:hover {
+    color: rgb(147, 85, 214);
+    font-size: 43px;
+}

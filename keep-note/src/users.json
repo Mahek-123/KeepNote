@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "firstName": "Mahek",
+      "lastName": "Ramchandani",
+      "email": "m@123.com",
+      "password": "Mahek@123",
+      "confirmPassword": "Mahek@123",
+      "gender": "female",
+      "age": 23,
+      "phoneNumber": 7678765678,
+      "address": {
+        "street": "Cinema Road",
+        "city": "Nandura",
+        "state": "Maharashtra",
+        "zipCode": 44556
+      },
+      "id": 1
+    },
+    {
+      "firstName": "Muskan",
+      "lastName": "Ramchandani",
+      "email": "m@123.net",
+      "password": "Muskan@123",
+      "confirmPassword": "Muskan@123",
+      "gender": "female",
+      "age": 21,
+      "phoneNumber": 8978767898,
+      "address": {
+        "street": "Sankalp Road",
+        "city": "Nashik",
+        "state": "Mahrashtra",
+        "zipCode": 43567
+      },
+      "id": 2
+    },
+    {
+      "firstName": "Ritik",
+      "lastName": "Mandana",
+      "email": "rm@17.com",
+      "password": "Ritik@123",
+      "confirmPassword": "Ritik@123",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": 7878787878,
+      "address": {
+        "street": "Gurunanak colony",
+        "city": "Nandurbar",
+        "state": "Maharashtra",
+        "zipCode": 67675
+      },
+      "id": 3
+    },
+    {
+      "firstName": "Misha",
+      "lastName": "shikhawat",
+      "email": "misha@1.com",
+      "password": "Misha@123",
+      "confirmPassword": "Misha@123",
+      "gender": "female",
+      "age": 25,
+      "phoneNumber": 7767898789,
+      "address": {
+        "street": "Marine",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": 67678
+      },
+      "id": 4
+    }
+  ]
+}

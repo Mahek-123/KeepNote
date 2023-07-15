@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    background-color: rgb(55, 41, 139);
+}
+
+h2 {
+    margin: 0px;
+    color: white;
+    padding: 10px 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icons {
+    margin-left: 1000px;
+    margin-top: 8px;
+    color: white;
+}
+
+#icon {
+    padding: 5px;
+}

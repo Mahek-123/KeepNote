@@ -1,0 +1,5 @@
+<mat-form-field class="input-field">
+    <input matInput type="text" name="searchbox" [(ngModel)]="searchText" (keyup)="search()" #searchbox="ngModel"
+        placeholder="Search" class="form-control" />
+    <mat-icon matSuffix value="Search" (click)="searchNote()">search</mat-icon>
+</mat-form-field>

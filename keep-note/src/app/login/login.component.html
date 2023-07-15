@@ -1,0 +1,28 @@
+<h1>Login Page</h1>
+<div id="container">
+
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+        <mat-form-field>
+            <input matInput placeholder="Enter your Email" formControlName="email">
+            <mat-error *ngIf="(email?.invalid && (email?.dirty || email?.touched))" id="err">
+                <mat-error *ngIf="email?.errors?.['required']">
+                    Email Id is required
+                </mat-error>
+                <mat-error *ngIf="email?.errors?.['email']">
+                    Please enter valid Email Id
+                </mat-error>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput type="text" placeholder="Password" formControlName="password">
+            <mat-error *ngIf="password?.errors?.['required']">
+                Password is required
+            </mat-error>
+        </mat-form-field>
+
+        <button type="submit" [disabled]="!loginForm.valid">Login</button>
+
+    </form>
+</div>

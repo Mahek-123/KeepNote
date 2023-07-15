@@ -1,0 +1,36 @@
+<mat-card mat-ripple class="card-content">
+
+    <h1>Update Note</h1>
+
+    <mat-card-content>
+
+        <form id="edit-form">
+            <div>
+                <mat-form-field class="input-field" appearance="fill">
+                    <mat-label>Note Title</mat-label>
+                    <input matInput [(ngModel)]="noteCard.title" name="title" type="text">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="input-field" appearance="fill">
+                    <mat-label>Note Content</mat-label>
+                    <textarea matInput [(ngModel)]="noteCard.content" rows="5" name="content" type="text"></textarea>
+                </mat-form-field>
+            </div>
+        </form>
+    </mat-card-content>
+
+
+    <mat-card-actions>
+        <button color="accent" mat-icon-button (click)="editNote()">
+            <mat-icon>edit</mat-icon>
+        </button>
+        <a routerLink="/dashboard">
+            <button color="accent" mat-icon-button>
+                <mat-icon>arrow_back_ios</mat-icon>
+            </button>
+        </a>
+    </mat-card-actions>
+
+
+</mat-card>

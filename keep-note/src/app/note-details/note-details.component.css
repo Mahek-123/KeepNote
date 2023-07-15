@@ -1,0 +1,21 @@
+.card-content {
+    background-color: rgb(240, 235, 245);
+    margin: 50px 400px;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    background-color: rgb(229, 221, 247);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+mat-card-actions {
+    margin-left: 175px;
+}
+
+button {
+    margin: 0px 10px;
+    background-color: rgb(229, 221, 247);
+}
